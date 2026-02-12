@@ -1,0 +1,82 @@
+*{
+margin:0;
+padding: 0;
+}
+:root{
+--thin-font-weight:100;
+--light-font-weight:300;
+--regular-font-weight:400;
+--semibold-font-weight:600;
+--bold-font-weight:700;
+--black-font-weight:900;
+
+}
+body{
+ background-color: #FAF1E8;   
+  
+}
+
+main{
+    max-width: 500px;
+    margin:29px auto;
+    background-color: white;
+padding:20px;
+
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 100 900;
+}
+
+.title-heading{
+    font-family:"outfit";
+    font-weight: var(--bold-font-weight);
+    font-size: 2rem;
+    margin: 12px auto;
+}
+.title-paragraph{
+    font-family:"outfit";
+    font-weight: 100;
+    margin: 10px auto;
+}
+.omelete-image{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.recipe-preparation-time-section{
+    background-color:rgba(245, 219, 245,0.3);
+   padding: 19px;
+
+}
+.recipe-preparation-time-section h2{
+ font-family: "outfit";
+    font-weight: 300;
+    color: #9A687E;
+
+}
+.time-list li{
+      font-family: "outfit";
+    font-weight:var(--light-font-weight) ;
+    margin: 0 13px;
+}
+.bold-text{
+    font-family: "outfit";
+    font-weight:var(--semibold-font-weight) ;
+}
+.ingredients-lists li{
+       font-family: "outfit";
+    font-weight:var(--light-font-weight) ;
+}
+.ingredients-section h2,.instuctuion-section h2,.nutrition-section h2{
+    color: #8B4A2B;
+    font-size: 1.7rem;
+}
+.instruction-lists li{
+      font-family: "outfit";
+    font-weight:var(--light-font-weight) ;
+}
+
+
